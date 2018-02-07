@@ -1,0 +1,101 @@
+﻿# -*- coding: utf-8 -*-
+import const
+import companies
+import telebot
+from telebot import types
+import sqlite3
+
+
+bot = telebot.TeleBot(const.token2)
+counter=0
+reply = "null"
+
+
+@bot.message_handler(commands=['start'])
+def start(m):
+    load_categories()
+    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    #for n in categories:
+        #keyboard.add(types.KeyboardButton(n))
+    keyboard.add(*[types.KeyboardButton(n) for n in categories])
+    msg = bot.send_message(m.chat.id, const.invite, reply_markup=keyboard)
+    bot.register_next_step_handler(msg, choose_category)
+
+
+def load_categories():
+    con = sqlite3.connect('test.db')
+    cur = con.cursor()
+    cur.execute('SELECT name FROM categories')
+    global categories
+    categories = cur.fetchall()
+    i=0
+    for n in categories:
+        categories[i] = n[0]
+        i+=1
+    con.close()
+
+def choose_category(m):
+    i=1
+    for name in categories:
+        if m.text == name and i==0:
+            return
+
+        if m.text == name and i>0:
+            sc = load_subcategories(i)
+            keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
+            #for n in sc:
+                #keyboard.add(types.KeyboardButton(n))
+            keyboard.add(*[types.KeyboardButton(n) for n in sc])
+            msg = bot.send_message(m.chat.id, const.invite, reply_markup=keyboard)
+            bot.register_next_step_handler(msg, choose_subcatrgory)
+        i+=1
+
+def load_subcategories(number_cat): #after chossing main category
+    con = sqlite3.connect('test.db')
+    cur = con.cursor()
+    cur.execute('SELECT name FROM subcategories WHERE main_category_id = (?)', (number_cat,))
+    subcategories = cur.fetchall()
+    i=0
+    for n in subcategories:
+        subcategories[i] = n[0]
+        i+=1
+    con.close()
+    return subcategories
+
+def choose_subcatrgory(m):
+    i=0
+    id = get_subcategory_id(m.text)
+    text = get_company_info(id)
+    text = text[0] #text = list(?) of rows from DB
+    keyboard = types.InlineKeyboardMarkup()
+    url_button = types.InlineKeyboardButton(text="Перейти на telegram канал", url="https://telegram.me/indyclean_bot")
+    keyboard.add(url_button)
+    bot.send_message(m.chat.id,  company_out_text(text), reply_markup=keyboard)
+
+def get_subcategory_id(name): #after choossing subcategory
+    con = sqlite3.connect('test.db')
+    cur = con.cursor()
+    print(name)
+    cur.execute('SELECT subcategory_id FROM subcategories WHERE name = (?)', [name])
+    res = cur.fetchall()
+    con.close
+    return res[0][0]
+
+def get_company_info(number_sc):
+    con = sqlite3.connect('test.db')
+    cur = con.cursor()
+    cur.execute('SELECT * FROM companies WHERE main_subcategory_id = (?)', [number_sc])
+    res = cur.fetchall()
+    con.close
+    return res
+
+def company_out_text(text):
+    out_t = text[2]+"\n"#name
+    out_t+=text[3]+"\n"#description
+    out_t+="Рабочий телефон  " + text[4]
+    return out_t
+
+
+
+if __name__ == '__main__':
+    bot.polling(none_stop=True)

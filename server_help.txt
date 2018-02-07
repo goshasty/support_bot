@@ -1,0 +1,19 @@
+pgrep -lf python3  - show python3 processes
+kill pid   - kill process
+//ps axu | grep bot.py
+//don't understand why kill (bash return a warning that there is no process with such number)
+
+creating user:
+	log in via root
+	adduser - than follow instructions
+	log out from root
+	log in via your user (ssh user_name@host    -->than your user pass)
+	make git clone
+
+help for http server:
+	bot_http - http server path
+	cd bot_http - for working with it
+	python3 manage.py runserver 194.87.235.113:8000 - starting the server
+	docs to python Django - at the official site
+    starting server via screen:
+    just type 'screen' and further do as usual
