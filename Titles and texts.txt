@@ -1,0 +1,13 @@
+https://habrahabr.ru/post/205986/ - настройка Atom
+https://devcenter.heroku.com/articles/getting-started-with-python#introduction - начать с heroku
+
+https://groosha.gitbooks.io/telegram-bot-lessons/content/chapter1.html - работа с telebot
+
+Django подробное руководство Головатый Каплан-Мосс
+
+https://docs.python.org/3/library/re.html#module-re - regular expressions
+
+https://git-scm.com/book/ru/v1 - обучение git с нуля
+
+https://www.8host.com/blog/ustanovka-veb-frejmvorka-django-v-ubuntu-16-04/ - установка django под ubuntu 16.04
+
