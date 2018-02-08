@@ -2,6 +2,8 @@
 https://git-scm.com/book/ru/v1/Введение-О-контроле-версий - основные команды Git Hub 
 https://habrahabr.ru/post/205986/ - настройка Atom под Python3
 http://wombat.org.ua/AByteOfPython/AByteofPythonRussian-2.01.pdf - a byte of python (основы python)
+https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html - правило написания кода
+https://pythonworld.ru/osnovy/dokumentirovanie-koda-v-python-pep-257.html - правила документирования кода
 
 
 https://groosha.gitbooks.io/telegram-bot-lessons/content/chapter1.html - работа с telebot
