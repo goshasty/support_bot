@@ -1,0 +1,19 @@
+Style of code in this project leads pep8
+Style of documentary leads pep257
+
+Peculiar qualities:
+1. indents with tab
+2. for variables CamelCase (?)
+3. for functions lower_case_with_underscores
+4. multi-line comment
+   '''
+   It' a comment
+
+   '''
+5. #! means "fix and correct this line"
+
+
+
+
+
+

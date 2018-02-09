@@ -1,0 +1,27 @@
+
+https://git-scm.com/book/ru/v1/Введение-О-контроле-версий - основные команды Git Hub 
+https://habrahabr.ru/post/205986/ - настройка Atom под Python3
+http://wombat.org.ua/AByteOfPython/AByteofPythonRussian-2.01.pdf - a byte of python (основы python)
+https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html - правило написания кода
+https://pythonworld.ru/osnovy/dokumentirovanie-koda-v-python-pep-257.html - правила документирования кода
+
+
+https://groosha.gitbooks.io/telegram-bot-lessons/content/chapter1.html - работа с telebot
+
+
+https://github.com/eternnoir/pyTelegramBotAPI - документация telebot
+https://habrahabr.ru/post/141411/ - о декораторах Habr
+
+http://python-3.ru/page/sqlite-python-example - связь SQLite3 с Python
+http://jtest.ru/bazyi-dannyix/sql-dlya-nachinayushhix-chast-3.html - SQL для начинающих
+http://xbb.uz/SQLite/Poddjerzhka-vnjeshnih-kljuchjej-v-SQLite/ - SQLite3 ключи и связи
+
+https://devcenter.heroku.com/articles/collab - Heroku collab
+https://devcenter.heroku.com/articles/getting-started-with-python#introduction - начать с Heroku
+
+
+
+Django подробное руководство Головатый Каплан-Мосс
+https://www.8host.com/blog/ustanovka-veb-frejmvorka-django-v-ubuntu-16-04/ - установка django под ubuntu 16.04
+https://docs.python.org/3/library/re.html#module-re - regular expressions
+
