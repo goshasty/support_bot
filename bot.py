@@ -1,24 +1,24 @@
 # -*- coding: utf-8 -*-
-import const
-import telebot
-from telebot import types
-import sqlite3
-from datetime import datetime
-import cherrypy
-from const import WEBHOOK_HOST, WEBHOOK_PORT, WEBHOOK_LISTEN, \
-                  WEBHOOK_SSL_CERT, WEBHOOK_SSL_PRIV, \
-                  WEBHOOK_URL_BASE
+
 import sys
 import logging
 import urllib3
-import tokens
+from datetime import datetime
 
-bot = telebot.TeleBot(tokens.token_main)
+import telebot
+from telebot import types
+import sqlite3
+import cherrypy
+
+import webhook
+import tokens
+import const
+from const import WEBHOOK_HOST, WEBHOOK_PORT, WEBHOOK_LISTEN, \
+                  WEBHOOK_SSL_CERT, WEBHOOK_SSL_PRIV, \
+                  WEBHOOK_URL_BASE
+
 
 reply = "null"
-logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s', level=logging.DEBUG,
-                    filename=u'YourSupportLogs.log')
-
 
 categories = []
 
@@ -47,8 +47,7 @@ def load_categories():
 
     WEBHOOK_URL_PATH = "/%s/" % tokens.token_main
 
-load_categories()#!!!
-
+#global!
 
 def check_users(cur_id):
     print("Checking users...")
@@ -88,25 +87,7 @@ code_wrongs = {
     3: const.no_subcategory
 }
 
-"""WEBHOOK CLASS"""
-
-class WebhookServer(object):
-    @cherrypy.expose
-    def index(self):
-        if 'content-length' in cherrypy.request.headers and \
-                'content-type' in cherrypy.request.headers and \
-                cherrypy.request.headers['content-type'] == 'application/json':
-
-            length = int(cherrypy.request.headers['content-length'])
-            json_string = cherrypy.request.body.read(length).decode("utf-8")
-            update = telebot.types.Update.de_json(json_string)
-            bot.process_new_updates([update])
-            return ''
-        else:
-            raise cherrypy.HTTPError(403)
-
-"""END WEBHOOK CLASS. BELOW JUST YOUR CODE"""
-
+bot = telebot.TeleBot(tokens.token_main)
 
 @bot.message_handler(commands=["get"])
 def get_statistics(m):
@@ -312,10 +293,9 @@ def execuse_smth(m, code):
     bot.register_next_step_handler(msg, choose_category)
     return
 
+def deploy():
 
-"""WEBHOOKS SET UP:"""  # please make class because I want to roll up it. OK, I heared you!! ;-)
-                        #  But I have to replace all this shitcode
-if len(sys.argv) > 1 and sys.argv[1] == 'deploy':
+    """WEBHOOKS SET UP:"""
     bot.remove_webhook()
     bot.set_webhook(url=WEBHOOK_URL_BASE + WEBHOOK_URL_PATH,
                     certificate=open(WEBHOOK_SSL_CERT, 'r'))
@@ -327,19 +307,23 @@ if len(sys.argv) > 1 and sys.argv[1] == 'deploy':
         'server.ssl_certificate': WEBHOOK_SSL_CERT,
         'server.ssl_private_key': WEBHOOK_SSL_PRIV
     })
+    cherrypy.quickstart(WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
 
-if len(sys.argv) < 2:
-    print("Specify starting mode [dev, deploy]")
-else:
-    if sys.argv[1] == 'deploy':
-        cherrypy.quickstart(WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
-    elif sys.argv[1] == 'dev':
-        '''
-        main action
-        '''
 
-        bot.remove_webhook()
-        if __name__ == '__main__':
-            bot.polling(none_stop=True)
-    else:
-        print("Specify starting mode [dev, deploy]")
+def main():
+    load_categories()
+    logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s',
+                        level=logging.DEBUG, filename=u'YourSupportLogs.log')
+    bot.remove_webhook()
+    if ((len(sys.argv) != 2) or
+            ((sys.argv[1] != 'dev') and (sys.argv[1] != 'deploy'))):
+        print("Specify starting mode 'dev' or 'deploy'")
+        sys.exit()
+
+    if(sys.argv[1] == 'deploy'):
+        deploy()
+    if(sys.argv[1] == 'dev'):
+        bot.polling(none_stop=True)
+
+if __name__ == '__main__':
+    main();
