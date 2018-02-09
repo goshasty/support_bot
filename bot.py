@@ -87,7 +87,7 @@ code_wrongs = {
     3: const.no_subcategory
 }
 
-
+bot = telebot.TeleBot(tokens.token_main)
 
 @bot.message_handler(commands=["get"])
 def get_statistics(m):
@@ -312,18 +312,17 @@ def deploy():
 
 def main():
     load_categories()
-    bot = telebot.TeleBot(tokens.token_main)
     logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s',
                         level=logging.DEBUG, filename=u'YourSupportLogs.log')
     bot.remove_webhook()
-    if (len(sys.argv) != 2) or
-            ((sys.argv[1] != 'dev') and (sys.argv[1] != 'deploy')):
+    if ((len(sys.argv) != 2) or
+            ((sys.argv[1] != 'dev') and (sys.argv[1] != 'deploy'))):
         print("Specify starting mode 'dev' or 'deploy'")
         sys.exit()
 
-    if(sys.argv == 'deploy')
+    if(sys.argv[1] == 'deploy'):
         deploy()
-    if(sys.argv == 'dev')
+    if(sys.argv[1] == 'dev'):
         bot.polling(none_stop=True)
 
 if __name__ == '__main__':
