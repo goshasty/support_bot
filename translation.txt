@@ -1,0 +1,17 @@
+1. const.py
+
+Choose the category - Выберите категорию
+Choose the subcategory - Выберите подкатегорию
+Something go bad               - Что-то пошло не так
+Now we will fix everything; \     - Сейчас мы все починим; \
+Try again later or choose other service!
+  - повторите попытку позже или выберите другую услугу!
+There are no companies in this subcategory yet - 
+  В этой подкатегории пока нет компаний
+You can choose other service - Вы можете выбрать себе другую услугу
+We haven't such category yet - У нас пока нет такой категории
+But you have access to all the other - Но вам доступны все остальные
+We haven't such subcategory yet - У нас пока нет такой подкатегории
+But you have access to all the other - Но вам доступны все остальные
+Command list - список команд
+/start - back to choosing categories - /start - вернуться к выбору категорий
