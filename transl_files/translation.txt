@@ -15,3 +15,9 @@ We haven't such subcategory yet - У нас пока нет такой подк�
 But you have access to all the other - Но вам доступны все остальные
 Command list - список команд
 /start - back to choosing categories - /start - вернуться к выбору категорий
+
+2. bot.py
+
+Number of unique users - Количество уникальных пользователей
+Number of unique clicks on all bots - Количество уникальных кликов по всем ботам
+

@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-02-11 17:20+MSK\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: const.py:6
+msgid ""
+"\n"
+"        Choose the category\n"
+"        "
+msgstr ""
+
+#: const.py:9
+msgid ""
+"\n"
+"        Choose the subcategory\n"
+"        "
+msgstr ""
+
+#: const.py:12
+msgid ""
+"\n"
+"        Something go bad 😑😑😑\n"
+"        Now we will fix everything;         try again later or choose other service!\n"
+"        "
+msgstr ""
+
+#: const.py:22
+msgid ""
+"\n"
+"        There are no companies in this subcategory yet\n"
+"        You can choose other service\n"
+"        "
+msgstr ""
+
+#: const.py:26
+msgid ""
+"\n"
+"        We haven't such category yet\n"
+"        But you have an access to all the other!\n"
+"        "
+msgstr ""
+
+#: const.py:30
+msgid ""
+"\n"
+"        We haven't such subcategory yet\n"
+"        But you have an access to all the other!\n"
+"        "
+msgstr ""
+
+#: const.py:35
+msgid ""
+"Number of unique users: %d\n"
+msgstr ""
+
+#: const.py:36
+msgid "Number of unique clicks on all bots: %d"
+msgstr ""
+
+#: const.py:40
+msgid ""
+"\n"
+"    Command list:\n"
+"    /start - back to choosing categories\n"
+"    "
+msgstr ""
+

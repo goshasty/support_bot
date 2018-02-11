@@ -1,50 +1,55 @@
 # -*- coding: utf-8 -*-
 
+import gettext
+gettext.install('const', './lang')
 
-invite_cat ='''
-        Выберите категорию
-        '''
-invite_sc = '''
-        Выберите подкатегорию
-        '''
-smth_wrong = '''
-        Что-то пошло не так 😑😑😑
-        Cейчас мы все починим; \
-        повторите попытку позже или выберите другую услугу!
-        '''
+invite_cat =_('''
+        Choose the category
+        ''')
+invite_sc = _('''
+        Choose the subcategory
+        ''')
+smth_wrong = _('''
+        Something go bad 😑😑😑
+        Now we will fix everything; \
+        try again later or choose other service!
+        ''')
 my_chat = 254282848
 
 
 superusers = [my_chat,] #!
 
-sc_is_empty = '''
-        В этой подкатегории пока нет компаний
-        Вы можете выбрать себе другую услугу
-        '''
-no_category='''
-        У нас пока нет такой категории
-        Но вам доступны все остальные!
-        '''
-no_subcategory='''
-        У нас пока нет такой подкатегории
-        Но вам доступны все остальные!
-        '''
+sc_is_empty = _('''
+        There are no companies in this subcategory yet
+        You can choose other service
+        ''')
+no_category=_('''
+        We haven't such category yet
+        But you have an access to all the other!
+        ''')
+no_subcategory=_('''
+        We haven't such subcategory yet
+        But you have an access to all the other!
+        ''')
+
+unique_users = _("Number of unique users: %d\n")
+unique_clicks = _("Number of unique clicks on all bots: %d")
 
 back = "⇐ back"
 
-FAQ = '''
-    Список команд:
-    /start - вернуться к выбору категорий
-    '''
+FAQ = _('''
+    Command list:
+    /start - back to choosing categories
+    ''')
 available_commands = ("/start", "/get")
 
 
 
 WEBHOOK_HOST = '194.87.235.113'
-WEBHOOK_PORT = 8443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
-WEBHOOK_LISTEN = '194.87.235.113'  # На некоторых серверах придется указывать такой же IP, что и выше
+WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port has to be open!)
+WEBHOOK_LISTEN = '194.87.235.113'  # On some servers we have to use the same IP with higher
 
-WEBHOOK_SSL_CERT = './webhook_cert.pem'  # Путь к сертификату
-WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # Путь к приватному ключу
+WEBHOOK_SSL_CERT = './webhook_cert.pem'  # The way to cerficate
+WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # The way to private key
 
 WEBHOOK_URL_BASE = "https://%s:%s" % (WEBHOOK_HOST, WEBHOOK_PORT)

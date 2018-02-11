@@ -99,8 +99,7 @@ def get_statistics(m):
         print("superuser")
         counts = get_visit_counts()
         print(str(counts))
-        bot.send_message(m.chat.id, "Количество уникальных пользователей: %d\n"
-                                    "Количество уникальных кликов по всем ботам: %d" % (
+        bot.send_message(m.chat.id, unique_users, unique_clicks  % (
                              counts[0], counts[1]))
 
 @bot.message_handler(commands=['start'])
