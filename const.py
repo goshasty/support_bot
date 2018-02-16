@@ -10,7 +10,7 @@ invite_sc = _('''
         Choose the subcategory
         ''')
 smth_wrong = _('''
-        Something go bad 😑😑😑
+        Something go bad
         Now we will fix everything; \
         try again later or choose other service!
         ''')
@@ -45,9 +45,9 @@ available_commands = ("/start", "/get")
 
 
 
-WEBHOOK_HOST = '194.87.235.113'
+WEBHOOK_HOST = '194.87.0.0'
 WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port has to be open!)
-WEBHOOK_LISTEN = '194.87.235.113'  # On some servers we have to use the same IP with higher
+WEBHOOK_LISTEN = '194.87.0.0'  # On some servers we have to use the same IP with higher
 
 WEBHOOK_SSL_CERT = './webhook_cert.pem'  # The way to cerficate
 WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # The way to private key

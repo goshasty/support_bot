@@ -18,10 +18,30 @@ from const import WEBHOOK_HOST, WEBHOOK_PORT, WEBHOOK_LISTEN, \
                   WEBHOOK_URL_BASE
 
 
-reply = "null"
-
 categories = []
+code_wrongs = {
+    -1: const.smth_wrong,
+    1: const.sc_is_empty,
+    2: const.no_category,
+    3: const.no_subcategory
+}
 
+bot = telebot.TeleBot(tokens.token_main)
+
+def main():
+    load_categories()
+    logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s',
+                        level=logging.DEBUG, filename=u'YourSupportLogs.log')#!
+    bot.remove_webhook()
+    if ((len(sys.argv) != 2) or
+            ((sys.argv[1] != 'dev') and (sys.argv[1] != 'deploy'))):
+        print("Specify starting mode 'dev' or 'deploy'")
+        sys.exit()
+
+    if(sys.argv[1] == 'deploy'):
+        deploy()
+    if(sys.argv[1] == 'dev'):
+        bot.polling(none_stop=True)
 
 def load_categories():
     """
@@ -45,9 +65,6 @@ def load_categories():
     for n in categories_:
         categories.append(n[0])
 
-    WEBHOOK_URL_PATH = "/%s/" % tokens.token_main
-
-#global!
 
 def check_users(cur_id):
     print("Checking users...")
@@ -80,14 +97,10 @@ def get_visit_counts():
         clicks_count += int(response.data)
     return [users_count, clicks_count]
 
-code_wrongs = {
-    -1: const.smth_wrong,
-    1: const.sc_is_empty,
-    2: const.no_category,
-    3: const.no_subcategory
-}
 
-bot = telebot.TeleBot(tokens.token_main)
+@bot.message_handler(content_types=["text"])
+def user_send_text(m): #вычесть команды
+    execuse_smth(m, code=2)
 
 @bot.message_handler(commands=["get"])
 def get_statistics(m):
@@ -295,7 +308,7 @@ def execuse_smth(m, code):
 def deploy():
 
     """WEBHOOKS SET UP:"""
-    bot.remove_webhook()
+    WEBHOOK_URL_PATH = "/%s/" % tokens.token_main
     bot.set_webhook(url=WEBHOOK_URL_BASE + WEBHOOK_URL_PATH,
                     certificate=open(WEBHOOK_SSL_CERT, 'r'))
 
@@ -306,23 +319,7 @@ def deploy():
         'server.ssl_certificate': WEBHOOK_SSL_CERT,
         'server.ssl_private_key': WEBHOOK_SSL_PRIV
     })
-    cherrypy.quickstart(WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
-
-
-def main():
-    load_categories()
-    logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s',
-                        level=logging.DEBUG, filename=u'YourSupportLogs.log')
-    bot.remove_webhook()
-    if ((len(sys.argv) != 2) or
-            ((sys.argv[1] != 'dev') and (sys.argv[1] != 'deploy'))):
-        print("Specify starting mode 'dev' or 'deploy'")
-        sys.exit()
-
-    if(sys.argv[1] == 'deploy'):
-        deploy()
-    if(sys.argv[1] == 'dev'):
-        bot.polling(none_stop=True)
+    cherrypy.quickstart(webhook.WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
 
 if __name__ == '__main__':
     main();
