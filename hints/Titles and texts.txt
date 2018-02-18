@@ -24,3 +24,7 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction -
 Django подробное руководство Головатый Каплан-Мосс
 https://www.8host.com/blog/ustanovka-veb-frejmvorka-django-v-ubuntu-16-04/ - установка django под ubuntu 16.04
 https://docs.python.org/3/library/re.html#module-re - regular expressions
+
+Локализация в Python
+https://dsent.me/blog/2014/10/12/python-scripts-gettext-l10n/
+https://habrahabr.ru/post/73554/
