@@ -26,16 +26,16 @@ code_wrongs = {
     3: const.no_subcategory
 }
 
-bot = telebot.TeleBot(tokens.token_main)
+bot = telebot.TeleBot(tokens.token_prince)
 
 def main():
     load_categories()
     logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s',
                         level=logging.DEBUG, filename=u'YourSupportLogs.log')#!
     bot.remove_webhook()
-    if ((len(sys.argv) != 2) or
+    if ((len(sys.argv) < 2) or
             ((sys.argv[1] != 'dev') and (sys.argv[1] != 'deploy'))):
-        print("Specify starting mode 'dev' or 'deploy'")
+        print("Specify starting mode (first arg) 'dev' or 'deploy'") //const
         sys.exit()
 
     if(sys.argv[1] == 'deploy'):

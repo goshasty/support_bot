@@ -1,7 +1,7 @@
 pgrep -lf python3  - show python3 processes
 kill pid   - kill process
 //ps axu | grep bot.py
-//don't understand why kill (bash return a warning that there is no process with such number)
+
 
 creating user:
 	log in via root
