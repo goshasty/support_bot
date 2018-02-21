@@ -10,7 +10,6 @@ from telebot import types
 import sqlite3
 import cherrypy
 
-import webhook
 import tokens
 import const
 from const import WEBHOOK_HOST, WEBHOOK_PORT, WEBHOOK_LISTEN, \
@@ -27,6 +26,21 @@ code_wrongs = {
 }
 
 bot = telebot.TeleBot(tokens.token_prince)
+
+class WebhookServer(object):
+    @cherrypy.expose
+    def index(self):
+        if 'content-length' in cherrypy.request.headers and \
+                'content-type' in cherrypy.request.headers and \
+                cherrypy.request.headers['content-type'] == 'application/json':
+
+            length = int(cherrypy.request.headers['content-length'])
+            json_string = cherrypy.request.body.read(length).decode("utf-8")
+            update = telebot.types.Update.de_json(json_string)
+            bot.process_new_updates([update])
+            return ''
+        else:
+            raise cherrypy.HTTPError(403)
 
 def main():
     load_categories()
@@ -65,7 +79,7 @@ def load_categories():
     for n in categories_:
         categories.append(n[0])
 
-
+#DO NOTHING
 def check_users(cur_id):
     print("Checking users...")
     con = sqlite3.connect('test.db')
@@ -78,7 +92,7 @@ def check_users(cur_id):
         con.commit()
     con.close()
 
-
+#DO NOTHING
 def get_visit_counts():
     print("Loading visits...")
     con = sqlite3.connect('test.db')
@@ -214,7 +228,7 @@ def choose_subcategory(m):
         execuse_smth(m, code=3)
         return None
 
-    list_of_companies = get_company_info(1)
+    list_of_companies = get_company_info(id)
     # !! list_of_companies = get_company_info(id)
 
     if not list_of_companies:
@@ -235,7 +249,7 @@ def choose_subcategory(m):
     msg = invalidate(m, const.invite_cat, categories)
     bot.register_next_step_handler(msg, choose_category)
     return None
-
+#DO NOTHING
 def get_subcategory_id(name):
     """
     Return id of choossing subcategory
@@ -256,7 +270,7 @@ def get_subcategory_id(name):
         res = -1
         handling_error(e)
         return res
-
+#DO NOTHING BELOW
 def get_company_info(number_sc):
     """
     Return a list of companies which belongs definite subcategory
@@ -319,7 +333,7 @@ def deploy():
         'server.ssl_certificate': WEBHOOK_SSL_CERT,
         'server.ssl_private_key': WEBHOOK_SSL_PRIV
     })
-    cherrypy.quickstart(webhook.WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
+    cherrypy.quickstart(WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
 
 if __name__ == '__main__':
     main();
