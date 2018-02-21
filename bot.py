@@ -79,7 +79,7 @@ def load_categories():
     for n in categories_:
         categories.append(n[0])
 
-
+#DO NOTHING
 def check_users(cur_id):
     print("Checking users...")
     con = sqlite3.connect('test.db')
@@ -92,7 +92,7 @@ def check_users(cur_id):
         con.commit()
     con.close()
 
-
+#DO NOTHING
 def get_visit_counts():
     print("Loading visits...")
     con = sqlite3.connect('test.db')
@@ -249,7 +249,7 @@ def choose_subcategory(m):
     msg = invalidate(m, const.invite_cat, categories)
     bot.register_next_step_handler(msg, choose_category)
     return None
-
+#DO NOTHING
 def get_subcategory_id(name):
     """
     Return id of choossing subcategory
@@ -270,7 +270,7 @@ def get_subcategory_id(name):
         res = -1
         handling_error(e)
         return res
-
+#DO NOTHING BELOW
 def get_company_info(number_sc):
     """
     Return a list of companies which belongs definite subcategory
