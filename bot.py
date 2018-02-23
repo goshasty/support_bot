@@ -70,7 +70,6 @@ def load_categories():
     cursorDB.execute('SELECT * FROM categories')
     categories_ = cursorDB.fetchall()
     connectorDB.close()
-    print(categories_)
     for n in categories_:
         categories.append(n[1])
         categories_id.append(n[0])
@@ -86,7 +85,6 @@ def load_subcategories():
     cursorDB.execute('SELECT * FROM subcategories')
     subcategories_ = cursorDB.fetchall()
     connectorDB.close()
-    print(subcategories_)
     i = 0
     for n in subcategories_:
         sc = Subcategory(n[1], n[2], n[0])
@@ -135,7 +133,7 @@ def user_send_text(message):
          msg = invalidate(message, INVITE_CATEGORY, categories)
          return
 
-    if(message.text == "<<"):
+    if(message.text == BACK):
         msg = invalidate(message, INVITE_CATEGORY, categories)
         return
     msg = invalidate(message, INVITE_CATEGORY, categories)
@@ -180,7 +178,7 @@ def invalidate(m, text_mes, list, buttonBack=0):
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     keyboard.add(*[types.KeyboardButton(n) for n in list])
     if buttonBack == 1:
-    	keyboard.add(types.KeyboardButton('<<'))
+    	keyboard.add(types.KeyboardButton(BACK))
     msg = bot.send_message(m.chat.id, text_mes, reply_markup=keyboard)
     return msg
 

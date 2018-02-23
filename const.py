@@ -30,6 +30,8 @@ NO_SUBCATEGORY=_('''
         But you have an access to all the other!
         ''')
 
+BACK = "<<"
+
 UNIQUE_USERS = _("Number of unique users: %d\n")
 UNIQUE_CLICKS = _("Number of unique clicks on all bots: %d")
 
