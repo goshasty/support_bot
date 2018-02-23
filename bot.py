@@ -25,7 +25,7 @@ code_wrongs = {
     3: const.no_subcategory
 }
 
-bot = telebot.TeleBot(tokens.token_prince)
+bot = telebot.TeleBot(tokens.token_dimas)
 
 class WebhookServer(object):
     @cherrypy.expose
@@ -144,16 +144,18 @@ def start(m):
     #http.request('GET', 'https://beautyhttp.herokuapp.com', timeout=0.5)
     #keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True,row_width=2)
     print("start2")
-    msg = invalidate(m, const.invite_cat, categories)
+    msg = invalidate(m, const.invite_cat, categories,0)
     bot.register_next_step_handler(msg, choose_category)
 
-def invalidate(m, text_mes, list):
+def invalidate(m, text_mes, list, buttonBack):
     """
     Show a grid of buttons, which associated with elements of list
 
     """
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     keyboard.add(*[types.KeyboardButton(n) for n in list])
+    if buttonBack == 1:
+    	keyboard.add(types.KeyboardButton('<<'))
     msg = bot.send_message(m.chat.id, text_mes, reply_markup=keyboard)
     return msg
 
@@ -168,7 +170,7 @@ def choose_category(m):
     for name in categories:
         if m.text == name and i == len(categories):
             bot.send_message(m.chat.id, const.FAQ)
-            msg = invalidate(m, const.invite_cat, categories)
+            msg = invalidate(m, const.invite_cat, categories,0)
             bot.register_next_step_handler(msg, choose_category)
             return  # handling of FAQ
         if m.text == name and i < len(categories):
@@ -179,7 +181,7 @@ def choose_category(m):
             if (sc == []):
                 execuse_smth(m, code=0)
                 return
-            msg = invalidate(m, const.invite_sc, sc)
+            msg = invalidate(m, const.invite_sc, sc, 1)
             bot.register_next_step_handler(msg, choose_subcategory)
             return
         i += 1
@@ -246,7 +248,7 @@ def choose_subcategory(m):
         keyboard.add(url_button)
         bot.send_message(m.chat.id, company_out_text(company), reply_markup=keyboard)
 
-    msg = invalidate(m, const.invite_cat, categories)
+    msg = invalidate(m, const.invite_cat, categories,0)
     bot.register_next_step_handler(msg, choose_category)
     return None
 #DO NOTHING
@@ -315,7 +317,7 @@ def execuse_smth(m, code):
     """
     text = code_wrongs[code]
     bot.send_message(m.chat.id, text)
-    msg = invalidate(m, const.invite_cat, categories)
+    msg = invalidate(m, const.invite_cat, categories,0)
     bot.register_next_step_handler(msg, choose_category)
     return
 
