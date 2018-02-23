@@ -1,4 +1,6 @@
 tokens.py
 __pycache__/
 *.pyc
-/YourSupportLogs.log
+
+YourSupportLogs.log
+tmp.txt
