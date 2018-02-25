@@ -139,6 +139,14 @@ def user_send_text(message):
         return
     msg = invalidate(message, INVITE_CATEGORY, categories)
 
+@bot.callback_query_handler(func=lambda call: True)
+def callback_inline(call):
+    if call.data == "class":
+        bot.send_message(call.message.chat.id, "class")
+    if call.data == "not_class":
+        bot.send_message(call.message.chat.id, "not_class")
+    
+
 def check_categories(text):
     """
     Return id of choosen category, if there' s no such category -> 0
@@ -204,8 +212,14 @@ def show_companies_in_subcategory(message, subcategoryID):
             text="telegram канал", url=text_url)
         keyboard.add(url_button)
         """
-        bot.send_message(message.chat.id, company_out_text(company))
-
+        keyboard = types.InlineKeyboardMarkup(row_width = 2)
+        callback_button_1 = types.InlineKeyboardButton(text="class",
+                                                     callback_data="class")
+        callback_button_2 = types.InlineKeyboardButton(text="not_class",
+                                                     callback_data="not_class")
+        keyboard.add(callback_button_1,callback_button_2)
+        bot.send_message(message.chat.id, company_out_text(company),reply_markup=keyboard)
+        #bot.send_message(message.chat.id, "lol",reply_markup=keyboard)
 def check_users(cur_id):
     print("Checking users...")
     connectorDB = sqlite3.connect('test.db')
