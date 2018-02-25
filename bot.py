@@ -26,7 +26,7 @@ code_wrongs = {
     3: NO_SUBCATEGORY
 }
 
-bot = telebot.TeleBot(tokens.TOKEN_PRINCE)
+bot = telebot.TeleBot(tokens.token_dimas)
 
 class WebhookServer(object):
     @cherrypy.expose
@@ -114,6 +114,7 @@ def start(message):
     check_users(message.chat.id)
     msg = invalidate(message, INVITE_CATEGORY, categories)#start_const
 
+
 @bot.message_handler(content_types=["text"])
 def user_send_text(message):
     """
@@ -175,7 +176,8 @@ def invalidate(m, text_mes, list, buttonBack=0):
     """
     Show a grid of buttons, which associated with elements of list
     """
-    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2,
+                                        one_time_keyboard = True)
     keyboard.add(*[types.KeyboardButton(n) for n in list])
     if buttonBack == 1:
     	keyboard.add(types.KeyboardButton(BACK))
