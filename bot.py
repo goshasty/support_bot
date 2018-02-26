@@ -300,7 +300,7 @@ def execuse_smth(message, code):
 def deploy():
 
     """WEBHOOKS SET UP:"""
-    WEBHOOK_URL_PATH = "/%s/" % tokens.token_main #!!!
+    WEBHOOK_URL_PATH = "/%s/" % tokens.TOKEN_MAIN #!!!
     bot.set_webhook(url=WEBHOOK_URL_BASE + WEBHOOK_URL_PATH,
                     certificate=open(WEBHOOK_SSL_CERT, 'r'))
 

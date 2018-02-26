@@ -40,7 +40,7 @@ FAQ = _('''
     /start - back to choosing categories
     ''')
 
-WEBHOOK_HOST = '194.87.0.0'
+WEBHOOK_HOST = '194.87.0.0' #!!!!!!!!
 WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port has to be open!)
 WEBHOOK_LISTEN = '194.87.0.0'  # On some servers we have to use the same IP with higher
 
