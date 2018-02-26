@@ -114,7 +114,6 @@ def start(message):
     check_users(message.chat.id)
     msg = invalidate(message, INVITE_CATEGORY, categories)#start_const
 
-
 @bot.message_handler(content_types=["text"])
 def user_send_text(message):
     """
@@ -145,7 +144,7 @@ def callback_inline(call):
         bot.send_message(call.message.chat.id, "class")
     if call.data == "not_class":
         bot.send_message(call.message.chat.id, "not_class")
-    
+
 
 def check_categories(text):
     """
@@ -183,6 +182,7 @@ def check_subcategories(text):
 def invalidate(m, text_mes, list, buttonBack=0):
     """
     Show a grid of buttons, which associated with elements of list
+
     """
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2,
                                         one_time_keyboard = True)
@@ -220,6 +220,7 @@ def show_companies_in_subcategory(message, subcategoryID):
         keyboard.add(callback_button_1,callback_button_2)
         bot.send_message(message.chat.id, company_out_text(company),reply_markup=keyboard)
         #bot.send_message(message.chat.id, "lol",reply_markup=keyboard)
+
 def check_users(cur_id):
     print("Checking users...")
     connectorDB = sqlite3.connect('test.db')
