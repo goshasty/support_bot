@@ -1,0 +1,420 @@
+DEBUG    [2018-02-26 22:34:14,601] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-26 22:34:14,833] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-26 22:34:14,840] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-26 22:34:34,224] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 424
+DEBUG    [2018-02-26 22:34:34,234] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-26 22:34:34,477] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=%0A%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8E&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D HTTP/1.1" 200 410
+DEBUG    [2018-02-26 22:34:38,567] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?offset=738294827&timeout=20 HTTP/1.1" 200 479
+DEBUG    [2018-02-26 22:34:38,577] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-26 22:34:38,810] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=%0A%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8E&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043b%5Cu0438%5Cu043d%5Cu0438%5Cu043d%5Cu0433+%5Cud83c%5Cudf43%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu043c%5Cu043e%5Cu043d%5Cu0442+%5Cud83d%5Cudee0%5Cufe0f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041c%5Cu0443%5Cu0436+%5Cu043d%5Cu0430+%5Cu0447%5Cu0430%5Cu0441+%5Cud83d%5Cudd28%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%7D HTTP/1.1" 200 428
+DEBUG    [2018-02-26 22:34:40,763] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?offset=738294828&timeout=20 HTTP/1.1" 200 477
+DEBUG    [2018-02-26 22:34:40,844] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=IndyClean+%E2%9C%A8%0A%E2%80%A2+%D0%A1%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B9+%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3+-+15+%D0%BC%D0%B8%D0%BD%D1%83%D1%82+%D0%BE%D1%82+%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F+%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0.%0A%0A%E2%80%A2+%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D1%81%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B%0A%0A%E2%80%A2+%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D1%8C+%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE+%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%B9+%D0%B8%D0%BB%D0%B8+%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%BC%D0%B8+%0A%0A%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD+%0A%2B7+926+181+10+47%0A%40your_support_bot&chat_id=509627560&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22class%22%2C+%22callback_data%22%3A+%22class%22%7D%2C+%7B%22text%22%3A+%22not_class%22%2C+%22callback_data%22%3A+%22not_class%22%7D%5D%5D%7D HTTP/1.1" 200 1200
+DEBUG    [2018-02-26 22:34:40,921] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=%0A%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8E&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D HTTP/1.1" 200 410
+DEBUG    [2018-02-26 22:34:57,870] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?offset=738294829&timeout=20 HTTP/1.1" 200 483
+DEBUG    [2018-02-26 22:34:58,030] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=%0A%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8E&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0415%5Cu0434%5Cu0430+%5Cud83c%5Cudf57%22%7D%2C+%7B%22text%22%3A+%22%5Cu0422%5Cu0435%5Cu0445%5Cu043d%5Cu0438%5Cu043a%5Cu0430+%5Cud83d%5Cudda8%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%7D HTTP/1.1" 200 428
+DEBUG    [2018-02-26 22:34:59,882] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?offset=738294830&timeout=20 HTTP/1.1" 200 453
+DEBUG    [2018-02-26 22:34:59,961] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=%0A%D0%92+%D1%8D%D1%82%D0%BE%D0%B9+%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8+%D0%BF%D0%BE%D0%BA%D0%B0+%D0%BD%D0%B5%D1%82+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B9%0A%D0%92%D1%8B+%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5+%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C+%D1%81%D0%B5%D0%B1%D0%B5+%D0%B4%D1%80%D1%83%D0%B3%D1%83%D1%8E+%D1%83%D1%81%D0%BB%D1%83%D0%B3%D1%83&chat_id=509627560 HTTP/1.1" 200 697
+DEBUG    [2018-02-26 22:35:00,051] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?text=%0A%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8E&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D HTTP/1.1" 200 410
+DEBUG    [2018-02-27 20:13:03,746] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:13:06,911] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:13:06,968] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:13:55,971] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:13:56,332] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:13:56,513] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:14:30,157] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:14:30,380] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:14:30,386] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:14:30,690] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?timeout=20&offset=1 HTTP/1.1" 200 479
+DEBUG    [2018-02-27 20:14:30,697] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:14:30,979] https://api.telegram.org:443 "POST /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/sendMessage?chat_id=509627560&text=%0A%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BF%D0%BE%D0%B4%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8E&reply_markup=%7B%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043b%5Cu0438%5Cu043d%5Cu0438%5Cu043d%5Cu0433+%5Cud83c%5Cudf43%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu043c%5Cu043e%5Cu043d%5Cu0442+%5Cud83d%5Cudee0%5Cufe0f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041c%5Cu0443%5Cu0436+%5Cu043d%5Cu0430+%5Cu0447%5Cu0430%5Cu0441+%5Cud83d%5Cudd28%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%2C+%22one_time_keyboard%22%3A+true%7D HTTP/1.1" 200 428
+DEBUG    [2018-02-27 20:14:50,780] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/getUpdates?timeout=20&offset=738294832 HTTP/1.1" 200 23
+DEBUG    [2018-02-27 20:19:04,038] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:19:06,365] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:19:06,728] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:48:21,568] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:48:21,969] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:48:22,091] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:54:41,997] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 20:54:47,578] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:54:48,014] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:54:48,134] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url=https%3A%2F%2F194.87.0.0%3A8443%2Fmain HTTP/1.1" 200 57
+DEBUG    [2018-02-27 20:54:51,871] https://api.telegram.org:443 "GET /bot551943574:AAE-9byxstb8dtoqlJiRxfhc4snIs2rl2uc/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 20:54:51,929] https://api.telegram.org:443 "GET /bot551943574:AAE-9byxstb8dtoqlJiRxfhc4snIs2rl2uc/setWebhook?url=https%3A%2F%2F194.87.0.0%3A8443%2Fmain HTTP/1.1" 200 57
+INFO     [2018-02-27 20:54:51,931] [27/Feb/2018:20:54:51] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-27 20:54:51,931] [27/Feb/2018:20:54:51] ENGINE Listening for SIGTERM.
+INFO     [2018-02-27 20:54:51,932] [27/Feb/2018:20:54:51] ENGINE Listening for SIGHUP.
+INFO     [2018-02-27 20:54:51,932] [27/Feb/2018:20:54:51] ENGINE Bus STARTING
+ERROR    [2018-02-27 20:54:52,040] [27/Feb/2018:20:54:52] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/local/lib/python3.5/dist-packages/cheroot/server.py", line 1525, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('194.87.0.0', 8443): [Errno 99] Cannot assign requested address)
+
+INFO     [2018-02-27 20:54:52,040] [27/Feb/2018:20:54:52] ENGINE Bus STOPPING
+INFO     [2018-02-27 20:54:52,040] [27/Feb/2018:20:54:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('194.87.0.0', 8443)) already shut down
+INFO     [2018-02-27 20:54:52,041] [27/Feb/2018:20:54:52] ENGINE Bus STOPPED
+INFO     [2018-02-27 20:54:52,041] [27/Feb/2018:20:54:52] ENGINE Bus EXITING
+INFO     [2018-02-27 20:54:52,041] [27/Feb/2018:20:54:52] ENGINE Bus EXITED
+DEBUG    [2018-02-27 21:09:18,625] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 21:09:18,852] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+DEBUG    [2018-02-27 21:09:18,911] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 21:09:18,971] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url=https%3A%2F%2F127.0.0.1%3A8443%2Fmain HTTP/1.1" 400 86
+DEBUG    [2018-02-27 21:20:08,359] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 21:20:08,646] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 21:20:08,727] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+DEBUG    [2018-02-27 21:20:10,603] https://api.telegram.org:443 "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url=https%3A%2F%2F194.87.0.0%3A8443%2Fmain HTTP/1.1" 200 57
+DEBUG    [2018-02-27 21:20:10,661] https://api.telegram.org:443 "GET /bot551943574:AAE-9byxstb8dtoqlJiRxfhc4snIs2rl2uc/setWebhook?url= HTTP/1.1" 200 61
+DEBUG    [2018-02-27 21:20:10,719] https://api.telegram.org:443 "GET /bot551943574:AAE-9byxstb8dtoqlJiRxfhc4snIs2rl2uc/setWebhook?url=https%3A%2F%2F194.87.0.0%3A8443%2Fmain HTTP/1.1" 200 57
+INFO     [2018-02-27 21:20:10,720] [27/Feb/2018:21:20:10] ENGINE Listening for SIGHUP.
+INFO     [2018-02-27 21:20:10,721] [27/Feb/2018:21:20:10] ENGINE Listening for SIGTERM.
+INFO     [2018-02-27 21:20:10,721] [27/Feb/2018:21:20:10] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-27 21:20:10,722] [27/Feb/2018:21:20:10] ENGINE Bus STARTING
+ERROR    [2018-02-27 21:20:10,828] [27/Feb/2018:21:20:10] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/local/lib/python3.5/dist-packages/cheroot/server.py", line 1525, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('194.87.0.0', 8443): [Errno 99] Cannot assign requested address)
+
+INFO     [2018-02-27 21:20:10,829] [27/Feb/2018:21:20:10] ENGINE Bus STOPPING
+INFO     [2018-02-27 21:20:10,829] [27/Feb/2018:21:20:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('194.87.0.0', 8443)) already shut down
+INFO     [2018-02-27 21:20:10,829] [27/Feb/2018:21:20:10] ENGINE Bus STOPPED
+INFO     [2018-02-27 21:20:10,829] [27/Feb/2018:21:20:10] ENGINE Bus EXITING
+INFO     [2018-02-27 21:20:10,830] [27/Feb/2018:21:20:10] ENGINE Bus EXITED
+INFO     [2018-02-27 22:11:28,321] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 22:11:28,575] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-27 22:11:28,610] [27/Feb/2018:22:11:28] ENGINE Listening for SIGTERM.
+INFO     [2018-02-27 22:11:28,610] [27/Feb/2018:22:11:28] ENGINE Listening for SIGHUP.
+INFO     [2018-02-27 22:11:28,611] [27/Feb/2018:22:11:28] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-27 22:11:28,611] [27/Feb/2018:22:11:28] ENGINE Bus STARTING
+INFO     [2018-02-27 22:11:28,723] [27/Feb/2018:22:11:28] ENGINE Serving on http://127.0.0.1:7001
+INFO     [2018-02-27 22:11:28,724] [27/Feb/2018:22:11:28] ENGINE Bus STARTED
+INFO     [2018-02-27 22:11:49,973] [27/Feb/2018:22:11:49] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-27 22:11:49,973] [27/Feb/2018:22:11:49] ENGINE Bus STOPPING
+INFO     [2018-02-27 22:11:49,976] [27/Feb/2018:22:11:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7001)) shut down
+INFO     [2018-02-27 22:11:49,977] [27/Feb/2018:22:11:49] ENGINE Bus STOPPED
+INFO     [2018-02-27 22:11:49,978] [27/Feb/2018:22:11:49] ENGINE Bus EXITING
+INFO     [2018-02-27 22:11:49,978] [27/Feb/2018:22:11:49] ENGINE Bus EXITED
+INFO     [2018-02-27 22:11:49,978] [27/Feb/2018:22:11:49] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-27 22:14:41,844] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 22:14:45,616] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 68
+INFO     [2018-02-27 22:14:45,657] [27/Feb/2018:22:14:45] ENGINE Listening for SIGTERM.
+INFO     [2018-02-27 22:14:45,658] [27/Feb/2018:22:14:45] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-27 22:14:45,659] [27/Feb/2018:22:14:45] ENGINE Listening for SIGHUP.
+INFO     [2018-02-27 22:14:45,659] [27/Feb/2018:22:14:45] ENGINE Bus STARTING
+INFO     [2018-02-27 22:14:45,763] [27/Feb/2018:22:14:45] ENGINE Serving on http://127.0.0.1:7001
+INFO     [2018-02-27 22:14:45,764] [27/Feb/2018:22:14:45] ENGINE Bus STARTED
+INFO     [2018-02-27 22:14:51,195] [27/Feb/2018:22:14:51] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-27 22:14:51,195] [27/Feb/2018:22:14:51] ENGINE Bus STOPPING
+INFO     [2018-02-27 22:14:51,197] [27/Feb/2018:22:14:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7001)) shut down
+INFO     [2018-02-27 22:14:51,201] [27/Feb/2018:22:14:51] ENGINE Bus STOPPED
+INFO     [2018-02-27 22:14:51,201] [27/Feb/2018:22:14:51] ENGINE Bus EXITING
+INFO     [2018-02-27 22:14:51,203] [27/Feb/2018:22:14:51] ENGINE Bus EXITED
+INFO     [2018-02-27 22:14:51,204] [27/Feb/2018:22:14:51] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-27 22:36:14,683] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 22:36:15,178] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-27 22:36:15,217] [27/Feb/2018:22:36:15] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-27 22:36:15,218] [27/Feb/2018:22:36:15] ENGINE Listening for SIGHUP.
+INFO     [2018-02-27 22:36:15,218] [27/Feb/2018:22:36:15] ENGINE Listening for SIGTERM.
+INFO     [2018-02-27 22:36:15,219] [27/Feb/2018:22:36:15] ENGINE Bus STARTING
+INFO     [2018-02-27 22:36:15,331] [27/Feb/2018:22:36:15] ENGINE Serving on http://127.0.0.1:7001
+INFO     [2018-02-27 22:36:15,333] [27/Feb/2018:22:36:15] ENGINE Bus STARTED
+INFO     [2018-02-27 23:01:53,756] [27/Feb/2018:23:01:53] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-27 23:01:53,757] [27/Feb/2018:23:01:53] ENGINE Bus STOPPING
+INFO     [2018-02-27 23:01:53,759] [27/Feb/2018:23:01:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7001)) shut down
+INFO     [2018-02-27 23:01:53,760] [27/Feb/2018:23:01:53] ENGINE Bus STOPPED
+INFO     [2018-02-27 23:01:53,760] [27/Feb/2018:23:01:53] ENGINE Bus EXITING
+INFO     [2018-02-27 23:01:53,761] [27/Feb/2018:23:01:53] ENGINE Bus EXITED
+INFO     [2018-02-27 23:01:53,761] [27/Feb/2018:23:01:53] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-27 23:51:47,108] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-27 23:51:47,347] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-27 23:51:47,389] [27/Feb/2018:23:51:47] ENGINE Listening for SIGTERM.
+INFO     [2018-02-27 23:51:47,389] [27/Feb/2018:23:51:47] ENGINE Listening for SIGHUP.
+INFO     [2018-02-27 23:51:47,390] [27/Feb/2018:23:51:47] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-27 23:51:47,390] [27/Feb/2018:23:51:47] ENGINE Bus STARTING
+INFO     [2018-02-27 23:51:47,493] [27/Feb/2018:23:51:47] ENGINE Serving on http://127.0.0.1:7001
+INFO     [2018-02-27 23:51:47,495] [27/Feb/2018:23:51:47] ENGINE Bus STARTED
+INFO     [2018-02-28 00:12:37,601] 127.0.0.1 - - [28/Feb/2018:00:12:37] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:12:37,671] 127.0.0.1 - - [28/Feb/2018:00:12:37] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:12:37,817] 127.0.0.1 - - [28/Feb/2018:00:12:37] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:12:37,935] 127.0.0.1 - - [28/Feb/2018:00:12:37] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:12:38,003] 127.0.0.1 - - [28/Feb/2018:00:12:38] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:12:38,049] 127.0.0.1 - - [28/Feb/2018:00:12:38] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:19:51,446] [28/Feb/2018:00:19:51] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 00:19:51,447] [28/Feb/2018:00:19:51] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:19:51,450] [28/Feb/2018:00:19:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7001)) shut down
+INFO     [2018-02-28 00:19:51,450] [28/Feb/2018:00:19:51] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:19:51,451] [28/Feb/2018:00:19:51] ENGINE Bus EXITING
+INFO     [2018-02-28 00:19:51,451] [28/Feb/2018:00:19:51] ENGINE Bus EXITED
+INFO     [2018-02-28 00:19:51,451] [28/Feb/2018:00:19:51] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 00:19:55,888] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 00:19:56,128] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 00:19:56,160] [28/Feb/2018:00:19:56] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 00:19:56,161] [28/Feb/2018:00:19:56] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 00:19:56,161] [28/Feb/2018:00:19:56] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 00:19:56,162] [28/Feb/2018:00:19:56] ENGINE Bus STARTING
+INFO     [2018-02-28 00:19:56,281] [28/Feb/2018:00:19:56] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 00:19:56,282] [28/Feb/2018:00:19:56] ENGINE Bus STARTED
+INFO     [2018-02-28 00:20:17,998] [28/Feb/2018:00:20:17] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 00:20:17,998] [28/Feb/2018:00:20:17] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:20:18,001] [28/Feb/2018:00:20:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 00:20:18,001] [28/Feb/2018:00:20:18] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:20:18,002] [28/Feb/2018:00:20:18] ENGINE Bus EXITING
+INFO     [2018-02-28 00:20:18,002] [28/Feb/2018:00:20:18] ENGINE Bus EXITED
+INFO     [2018-02-28 00:20:18,002] [28/Feb/2018:00:20:18] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 00:20:47,423] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 00:20:49,578] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 00:20:49,618] [28/Feb/2018:00:20:49] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 00:20:49,618] [28/Feb/2018:00:20:49] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 00:20:49,619] [28/Feb/2018:00:20:49] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 00:20:49,619] [28/Feb/2018:00:20:49] ENGINE Bus STARTING
+INFO     [2018-02-28 00:20:49,728] [28/Feb/2018:00:20:49] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 00:20:49,730] [28/Feb/2018:00:20:49] ENGINE Bus STARTED
+INFO     [2018-02-28 00:26:31,700] 127.0.0.1 - - [28/Feb/2018:00:26:31] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:26:31,764] 127.0.0.1 - - [28/Feb/2018:00:26:31] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:26:31,920] 127.0.0.1 - - [28/Feb/2018:00:26:31] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:26:31,991] 127.0.0.1 - - [28/Feb/2018:00:26:31] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:27:35,422] [28/Feb/2018:00:27:35] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 00:27:35,422] [28/Feb/2018:00:27:35] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:27:35,426] [28/Feb/2018:00:27:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 00:27:35,426] [28/Feb/2018:00:27:35] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:27:35,427] [28/Feb/2018:00:27:35] ENGINE Bus EXITING
+INFO     [2018-02-28 00:27:35,427] [28/Feb/2018:00:27:35] ENGINE Bus EXITED
+INFO     [2018-02-28 00:27:35,427] [28/Feb/2018:00:27:35] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 00:28:03,247] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 00:28:03,462] "GET /bot543710301:AAFLdlz3FzGkFGDeC1WLCNYgXFibOSnyRJA/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 00:28:03,503] [28/Feb/2018:00:28:03] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 00:28:03,504] [28/Feb/2018:00:28:03] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 00:28:03,505] [28/Feb/2018:00:28:03] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 00:28:03,505] [28/Feb/2018:00:28:03] ENGINE Bus STARTING
+INFO     [2018-02-28 00:28:03,621] [28/Feb/2018:00:28:03] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 00:28:03,622] [28/Feb/2018:00:28:03] ENGINE Bus STARTED
+INFO     [2018-02-28 00:34:23,323] 127.0.0.1 - - [28/Feb/2018:00:34:23] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:34:23,386] 127.0.0.1 - - [28/Feb/2018:00:34:23] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:34:23,539] 127.0.0.1 - - [28/Feb/2018:00:34:23] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:35:01,456] 127.0.0.1 - - [28/Feb/2018:00:35:01] "POST / HTTP/1.1" 403 1447 "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 00:35:24,124] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 00:35:24,369] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 00:35:24,406] [28/Feb/2018:00:35:24] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 00:35:24,407] [28/Feb/2018:00:35:24] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 00:35:24,407] [28/Feb/2018:00:35:24] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 00:35:24,407] [28/Feb/2018:00:35:24] ENGINE Bus STARTING
+ERROR    [2018-02-28 00:35:25,434] [28/Feb/2018:00:35:25] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x7fb69be4afd0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/process/wspbus.py", line 230, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpserver.py", line 173, in start
+    super(Server, self).start()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/process/servers.py", line 177, in start
+    portend.free(*self.bind_addr, timeout=Timeouts.free)
+  File "/usr/local/lib/python3.5/dist-packages/portend.py", line 119, in free
+    raise Timeout("Port {port} not free on {host}.".format(**locals()))
+portend.Timeout: Port 7000 not free on 127.0.0.1.
+
+ERROR    [2018-02-28 00:35:25,435] [28/Feb/2018:00:35:25] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/process/wspbus.py", line 268, in start
+    self.publish('start')
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/process/wspbus.py", line 248, in publish
+    raise exc
+cherrypy.process.wspbus.ChannelFailures: Timeout('Port 7000 not free on 127.0.0.1.',)
+
+INFO     [2018-02-28 00:35:25,436] [28/Feb/2018:00:35:25] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:35:25,436] [28/Feb/2018:00:35:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) already shut down
+INFO     [2018-02-28 00:35:25,437] [28/Feb/2018:00:35:25] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:35:25,437] [28/Feb/2018:00:35:25] ENGINE Bus EXITING
+INFO     [2018-02-28 00:35:25,437] [28/Feb/2018:00:35:25] ENGINE Bus EXITED
+INFO     [2018-02-28 00:35:55,614] [28/Feb/2018:00:35:55] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 00:35:55,615] [28/Feb/2018:00:35:55] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:35:55,620] [28/Feb/2018:00:35:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 00:35:55,621] [28/Feb/2018:00:35:55] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:35:55,621] [28/Feb/2018:00:35:55] ENGINE Bus EXITING
+INFO     [2018-02-28 00:35:55,621] [28/Feb/2018:00:35:55] ENGINE Bus EXITED
+INFO     [2018-02-28 00:35:55,622] [28/Feb/2018:00:35:55] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 00:35:59,237] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 00:35:59,447] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 68
+INFO     [2018-02-28 00:35:59,493] [28/Feb/2018:00:35:59] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 00:35:59,494] [28/Feb/2018:00:35:59] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 00:35:59,494] [28/Feb/2018:00:35:59] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 00:35:59,495] [28/Feb/2018:00:35:59] ENGINE Bus STARTING
+INFO     [2018-02-28 00:35:59,603] [28/Feb/2018:00:35:59] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 00:35:59,605] [28/Feb/2018:00:35:59] ENGINE Bus STARTED
+INFO     [2018-02-28 00:37:18,533] [28/Feb/2018:00:37:18] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 00:37:18,535] [28/Feb/2018:00:37:18] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:37:18,538] [28/Feb/2018:00:37:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 00:37:18,539] [28/Feb/2018:00:37:18] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:37:18,539] [28/Feb/2018:00:37:18] ENGINE Bus EXITING
+INFO     [2018-02-28 00:37:18,539] [28/Feb/2018:00:37:18] ENGINE Bus EXITED
+INFO     [2018-02-28 00:37:18,539] [28/Feb/2018:00:37:18] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 00:38:15,150] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 00:38:15,398] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 00:38:15,436] [28/Feb/2018:00:38:15] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 00:38:15,437] [28/Feb/2018:00:38:15] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 00:38:15,437] [28/Feb/2018:00:38:15] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 00:38:15,438] [28/Feb/2018:00:38:15] ENGINE Bus STARTING
+INFO     [2018-02-28 00:38:15,545] [28/Feb/2018:00:38:15] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 00:38:15,546] [28/Feb/2018:00:38:15] ENGINE Bus STARTED
+INFO     [2018-02-28 00:42:20,313] [28/Feb/2018:00:42:20] ENGINE Caught signal SIGHUP.
+INFO     [2018-02-28 00:42:20,314] [28/Feb/2018:00:42:20] ENGINE SIGHUP caught but not daemonized. Exiting.
+INFO     [2018-02-28 00:42:20,314] [28/Feb/2018:00:42:20] ENGINE Bus STOPPING
+INFO     [2018-02-28 00:42:20,316] [28/Feb/2018:00:42:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 00:42:20,317] [28/Feb/2018:00:42:20] ENGINE Bus STOPPED
+INFO     [2018-02-28 00:42:20,317] [28/Feb/2018:00:42:20] ENGINE Bus EXITING
+INFO     [2018-02-28 00:42:20,317] [28/Feb/2018:00:42:20] ENGINE Bus EXITED
+INFO     [2018-02-28 00:42:20,327] [28/Feb/2018:00:42:20] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 11:15:07,258] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 11:15:07,488] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 11:15:07,531] [28/Feb/2018:11:15:07] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 11:15:07,532] [28/Feb/2018:11:15:07] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 11:15:07,532] [28/Feb/2018:11:15:07] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 11:15:07,532] [28/Feb/2018:11:15:07] ENGINE Bus STARTING
+INFO     [2018-02-28 11:15:07,646] [28/Feb/2018:11:15:07] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 11:15:07,647] [28/Feb/2018:11:15:07] ENGINE Bus STARTED
+INFO     [2018-02-28 11:15:23,365] [28/Feb/2018:11:15:23] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 11:15:23,366] [28/Feb/2018:11:15:23] ENGINE Bus STOPPING
+INFO     [2018-02-28 11:15:23,369] [28/Feb/2018:11:15:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 11:15:23,369] [28/Feb/2018:11:15:23] ENGINE Bus STOPPED
+INFO     [2018-02-28 11:15:23,369] [28/Feb/2018:11:15:23] ENGINE Bus EXITING
+INFO     [2018-02-28 11:15:23,370] [28/Feb/2018:11:15:23] ENGINE Bus EXITED
+INFO     [2018-02-28 11:15:23,370] [28/Feb/2018:11:15:23] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 11:17:39,103] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 11:17:39,325] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 11:17:39,363] [28/Feb/2018:11:17:39] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 11:17:39,364] [28/Feb/2018:11:17:39] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 11:17:39,364] [28/Feb/2018:11:17:39] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 11:17:39,364] [28/Feb/2018:11:17:39] ENGINE Bus STARTING
+INFO     [2018-02-28 11:17:39,485] [28/Feb/2018:11:17:39] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 11:17:39,486] [28/Feb/2018:11:17:39] ENGINE Bus STARTED
+INFO     [2018-02-28 11:43:51,903] [28/Feb/2018:11:43:51] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 11:43:51,905] [28/Feb/2018:11:43:51] ENGINE Bus STOPPING
+INFO     [2018-02-28 11:43:51,908] [28/Feb/2018:11:43:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 11:43:51,908] [28/Feb/2018:11:43:51] ENGINE Bus STOPPED
+INFO     [2018-02-28 11:43:51,909] [28/Feb/2018:11:43:51] ENGINE Bus EXITING
+INFO     [2018-02-28 11:43:51,909] [28/Feb/2018:11:43:51] ENGINE Bus EXITED
+INFO     [2018-02-28 11:43:51,909] [28/Feb/2018:11:43:51] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 11:43:59,311] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 11:43:59,549] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 68
+INFO     [2018-02-28 11:43:59,613] [28/Feb/2018:11:43:59] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 11:43:59,614] [28/Feb/2018:11:43:59] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 11:43:59,614] [28/Feb/2018:11:43:59] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 11:43:59,614] [28/Feb/2018:11:43:59] ENGINE Bus STARTING
+INFO     [2018-02-28 11:43:59,726] [28/Feb/2018:11:43:59] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 11:43:59,727] [28/Feb/2018:11:43:59] ENGINE Bus STARTED
+INFO     [2018-02-28 11:49:22,030] [28/Feb/2018:11:49:22] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 11:49:22,031] [28/Feb/2018:11:49:22] ENGINE Bus STOPPING
+INFO     [2018-02-28 11:49:22,035] [28/Feb/2018:11:49:22] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 11:49:22,036] [28/Feb/2018:11:49:22] ENGINE Bus STOPPED
+INFO     [2018-02-28 11:49:22,036] [28/Feb/2018:11:49:22] ENGINE Bus EXITING
+INFO     [2018-02-28 11:49:22,037] [28/Feb/2018:11:49:22] ENGINE Bus EXITED
+INFO     [2018-02-28 11:49:22,037] [28/Feb/2018:11:49:22] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 11:49:24,803] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 11:49:25,037] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 68
+INFO     [2018-02-28 11:49:25,077] [28/Feb/2018:11:49:25] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 11:49:25,077] [28/Feb/2018:11:49:25] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 11:49:25,078] [28/Feb/2018:11:49:25] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 11:49:25,078] [28/Feb/2018:11:49:25] ENGINE Bus STARTING
+INFO     [2018-02-28 11:49:25,189] [28/Feb/2018:11:49:25] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 11:49:25,191] [28/Feb/2018:11:49:25] ENGINE Bus STARTED
+INFO     [2018-02-28 11:56:42,577] [28/Feb/2018:11:56:42] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 11:56:42,577] [28/Feb/2018:11:56:42] ENGINE Bus STOPPING
+INFO     [2018-02-28 11:56:42,579] [28/Feb/2018:11:56:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 11:56:42,580] [28/Feb/2018:11:56:42] ENGINE Bus STOPPED
+INFO     [2018-02-28 11:56:42,580] [28/Feb/2018:11:56:42] ENGINE Bus EXITING
+INFO     [2018-02-28 11:56:42,580] [28/Feb/2018:11:56:42] ENGINE Bus EXITED
+INFO     [2018-02-28 11:56:42,580] [28/Feb/2018:11:56:42] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 12:15:56,961] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 12:15:57,186] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 12:15:57,224] [28/Feb/2018:12:15:57] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 12:15:57,226] [28/Feb/2018:12:15:57] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 12:15:57,227] [28/Feb/2018:12:15:57] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 12:15:57,228] [28/Feb/2018:12:15:57] ENGINE Bus STARTING
+INFO     [2018-02-28 12:15:57,339] [28/Feb/2018:12:15:57] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 12:15:57,341] [28/Feb/2018:12:15:57] ENGINE Bus STARTED
+INFO     [2018-02-28 12:23:30,694] Starting new HTTPS connection (1): api.telegram.org
+INFO     [2018-02-28 12:23:30,694] 127.0.0.1 - - [28/Feb/2018:12:23:30] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 12:23:30,797] Starting new HTTPS connection (1): api.telegram.org
+INFO     [2018-02-28 12:23:30,805] 127.0.0.1 - - [28/Feb/2018:12:23:30] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 12:23:30,898] 127.0.0.1 - - [28/Feb/2018:12:23:30] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 12:23:30,968] 127.0.0.1 - - [28/Feb/2018:12:23:30] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 12:23:31,010] 127.0.0.1 - - [28/Feb/2018:12:23:31] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:23:31,079] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+subcategory%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043b%5Cu0438%5Cu043d%5Cu0438%5Cu043d%5Cu0433+%5Cud83c%5Cudf43%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu043c%5Cu043e%5Cu043d%5Cu0442+%5Cud83d%5Cudee0%5Cufe0f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041c%5Cu0443%5Cu0436+%5Cu043d%5Cu0430+%5Cu0447%5Cu0430%5Cu0441+%5Cud83d%5Cudd28%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 336
+DEBUG    [2018-02-28 12:23:31,101] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+subcategory%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043b%5Cu0438%5Cu043d%5Cu0438%5Cu043d%5Cu0433+%5Cud83c%5Cudf43%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu043c%5Cu043e%5Cu043d%5Cu0442+%5Cud83d%5Cudee0%5Cufe0f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041c%5Cu0443%5Cu0436+%5Cu043d%5Cu0430+%5Cu0447%5Cu0430%5Cu0441+%5Cud83d%5Cudd28%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 336
+DEBUG    [2018-02-28 12:23:31,155] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+subcategory%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043e%5Cu0441%5Cu043c%5Cu0435%5Cu0442%5Cu043e%5Cu043b%5Cu043e%5Cu0433+%5Cud83d%5Cudc84%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu0442%5Cu0438%5Cu043b%5Cu0438%5Cu0441%5Cu0442+%5Cud83d%5Cudc5c%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0412%5Cu0438%5Cu0437%5Cu0430%5Cu0436%5Cu0438%5Cu0441%5Cu0442+%5Cud83d%5Cudc69%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 336
+DEBUG    [2018-02-28 12:23:31,176] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+category%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 333
+DEBUG    [2018-02-28 12:23:31,234] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+subcategory%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043b%5Cu0438%5Cu043d%5Cu0438%5Cu043d%5Cu0433+%5Cud83c%5Cudf43%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu043c%5Cu043e%5Cu043d%5Cu0442+%5Cud83d%5Cudee0%5Cufe0f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041c%5Cu0443%5Cu0436+%5Cu043d%5Cu0430+%5Cu0447%5Cu0430%5Cu0441+%5Cud83d%5Cudd28%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 336
+INFO     [2018-02-28 12:23:49,790] 127.0.0.1 - - [28/Feb/2018:12:23:49] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:23:49,866] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=IndyClean+%E2%9C%A8%0A%E2%80%A2+%D0%A1%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B9+%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3+-+15+%D0%BC%D0%B8%D0%BD%D1%83%D1%82+%D0%BE%D1%82+%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F+%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0.%0A%0A%E2%80%A2+%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D1%81%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%8B%0A%0A%E2%80%A2+%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82%D1%8C+%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE+%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%B9+%D0%B8%D0%BB%D0%B8+%D0%BD%D0%B0%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%BC%D0%B8+%0A%0A%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD+%0A%2B7+926+181+10+47%0A%40your_support_bot&chat_id=509627560&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22class%22%2C+%22callback_data%22%3A+%22class%22%7D%2C+%7B%22text%22%3A+%22not_class%22%2C+%22callback_data%22%3A+%22not_class%22%7D%5D%5D%7D HTTP/1.1" 200 1207
+DEBUG    [2018-02-28 12:23:49,933] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+category%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 333
+INFO     [2018-02-28 12:23:56,626] 127.0.0.1 - - [28/Feb/2018:12:23:56] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:23:56,698] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+subcategory%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043b%5Cu0438%5Cu043d%5Cu0438%5Cu043a%5Cu0438+%5Cud83c%5Cudfe5%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0441%5Cu0438%5Cu0445%5Cu043e%5Cu043b%5Cu043e%5Cu0433+%5Cud83d%5Cudd8b%5Cufe0f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0410%5Cu043f%5Cu0442%5Cu0435%5Cu043a%5Cu0438+%5Cu2795%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu0438%5Cu0435%5Cu0442%5Cu043e%5Cu043b%5Cu043e%5Cu0433+%5Cud83c%5Cudf4f%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 336
+INFO     [2018-02-28 12:24:01,060] 127.0.0.1 - - [28/Feb/2018:12:24:01] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:24:01,134] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++There+are+no+companies+in+this+subcategory+yet%0A++++++++You+can+choose+other+service%0A++++++++&chat_id=509627560 HTTP/1.1" 200 398
+DEBUG    [2018-02-28 12:24:01,209] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?text=%0A++++++++Choose+the+category%0A++++++++&chat_id=509627560&reply_markup=%7B%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 333
+INFO     [2018-02-28 12:24:33,756] [28/Feb/2018:12:24:33] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 12:24:33,757] [28/Feb/2018:12:24:33] ENGINE Bus STOPPING
+INFO     [2018-02-28 12:24:33,760] [28/Feb/2018:12:24:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 12:24:33,760] [28/Feb/2018:12:24:33] ENGINE Bus STOPPED
+INFO     [2018-02-28 12:24:33,761] [28/Feb/2018:12:24:33] ENGINE Bus EXITING
+INFO     [2018-02-28 12:24:33,761] [28/Feb/2018:12:24:33] ENGINE Bus EXITED
+INFO     [2018-02-28 12:24:33,761] [28/Feb/2018:12:24:33] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 12:24:40,979] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 12:24:41,212] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 12:24:41,241] [28/Feb/2018:12:24:41] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 12:24:41,241] [28/Feb/2018:12:24:41] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 12:24:41,241] [28/Feb/2018:12:24:41] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 12:24:41,242] [28/Feb/2018:12:24:41] ENGINE Bus STARTING
+INFO     [2018-02-28 12:24:41,355] [28/Feb/2018:12:24:41] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 12:24:41,356] [28/Feb/2018:12:24:41] ENGINE Bus STARTED
+INFO     [2018-02-28 12:26:08,406] [28/Feb/2018:12:26:08] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 12:26:08,407] [28/Feb/2018:12:26:08] ENGINE Bus STOPPING
+INFO     [2018-02-28 12:26:08,409] [28/Feb/2018:12:26:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 12:26:08,410] [28/Feb/2018:12:26:08] ENGINE Bus STOPPED
+INFO     [2018-02-28 12:26:08,413] [28/Feb/2018:12:26:08] ENGINE Bus EXITING
+INFO     [2018-02-28 12:26:08,414] [28/Feb/2018:12:26:08] ENGINE Bus EXITED
+INFO     [2018-02-28 12:26:08,414] [28/Feb/2018:12:26:08] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 12:27:39,244] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 12:27:39,468] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 68
+INFO     [2018-02-28 12:27:39,500] [28/Feb/2018:12:27:39] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 12:27:39,501] [28/Feb/2018:12:27:39] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 12:27:39,501] [28/Feb/2018:12:27:39] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 12:27:39,502] [28/Feb/2018:12:27:39] ENGINE Bus STARTING
+INFO     [2018-02-28 12:27:39,616] [28/Feb/2018:12:27:39] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 12:27:39,617] [28/Feb/2018:12:27:39] ENGINE Bus STARTED
+INFO     [2018-02-28 12:28:28,342] [28/Feb/2018:12:28:28] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 12:28:28,342] [28/Feb/2018:12:28:28] ENGINE Bus STOPPING
+INFO     [2018-02-28 12:28:28,344] [28/Feb/2018:12:28:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 12:28:28,345] [28/Feb/2018:12:28:28] ENGINE Bus STOPPED
+INFO     [2018-02-28 12:28:28,345] [28/Feb/2018:12:28:28] ENGINE Bus EXITING
+INFO     [2018-02-28 12:28:28,345] [28/Feb/2018:12:28:28] ENGINE Bus EXITED
+INFO     [2018-02-28 12:28:28,346] [28/Feb/2018:12:28:28] ENGINE Waiting for child threads to terminate...
+INFO     [2018-02-28 12:32:08,786] Starting new HTTPS connection (1): api.telegram.org
+DEBUG    [2018-02-28 12:32:09,076] "GET /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/setWebhook?url= HTTP/1.1" 200 61
+INFO     [2018-02-28 12:32:09,107] [28/Feb/2018:12:32:09] ENGINE Listening for SIGHUP.
+INFO     [2018-02-28 12:32:09,108] [28/Feb/2018:12:32:09] ENGINE Listening for SIGUSR1.
+INFO     [2018-02-28 12:32:09,109] [28/Feb/2018:12:32:09] ENGINE Listening for SIGTERM.
+INFO     [2018-02-28 12:32:09,109] [28/Feb/2018:12:32:09] ENGINE Bus STARTING
+INFO     [2018-02-28 12:32:09,224] [28/Feb/2018:12:32:09] ENGINE Serving on http://127.0.0.1:7000
+INFO     [2018-02-28 12:32:09,224] [28/Feb/2018:12:32:09] ENGINE Bus STARTED
+INFO     [2018-02-28 12:36:43,691] Starting new HTTPS connection (1): api.telegram.org
+INFO     [2018-02-28 12:36:43,691] 127.0.0.1 - - [28/Feb/2018:12:36:43] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 12:36:43,777] 127.0.0.1 - - [28/Feb/2018:12:36:43] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+INFO     [2018-02-28 12:36:43,784] Starting new HTTPS connection (1): api.telegram.org
+INFO     [2018-02-28 12:36:43,947] 127.0.0.1 - - [28/Feb/2018:12:36:43] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:36:43,959] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?reply_markup=%7B%22resize_keyboard%22%3A+true%2C+%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D&chat_id=509627560&text=%0A++++++++Choose+the+category%0A++++++++ HTTP/1.1" 200 333
+DEBUG    [2018-02-28 12:36:44,049] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?reply_markup=%7B%22resize_keyboard%22%3A+true%2C+%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D&chat_id=509627560&text=%0A++++++++Choose+the+category%0A++++++++ HTTP/1.1" 200 333
+DEBUG    [2018-02-28 12:36:44,071] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?reply_markup=%7B%22resize_keyboard%22%3A+true%2C+%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D&chat_id=509627560&text=%0A++++++++Choose+the+category%0A++++++++ HTTP/1.1" 200 333
+INFO     [2018-02-28 12:36:44,382] 127.0.0.1 - - [28/Feb/2018:12:36:44] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:36:44,456] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?reply_markup=%7B%22resize_keyboard%22%3A+true%2C+%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu043e%5Cu0441%5Cu043c%5Cu0435%5Cu0442%5Cu043e%5Cu043b%5Cu043e%5Cu0433+%5Cud83d%5Cudc84%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu0442%5Cu0438%5Cu043b%5Cu0438%5Cu0441%5Cu0442+%5Cud83d%5Cudc5c%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0412%5Cu0438%5Cu0437%5Cu0430%5Cu0436%5Cu0438%5Cu0441%5Cu0442+%5Cud83d%5Cudc69%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%3C%3C%22%7D%5D%5D%7D&chat_id=509627560&text=%0A++++++++Choose+the+subcategory%0A++++++++ HTTP/1.1" 200 336
+INFO     [2018-02-28 12:37:02,631] 127.0.0.1 - - [28/Feb/2018:12:37:02] "POST / HTTP/1.1" 200 - "" "python-requests/2.7.0 CPython/3.5.2 Linux/4.4.0-34-generic"
+DEBUG    [2018-02-28 12:37:02,703] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?chat_id=509627560&text=%0A++++++++There+are+no+companies+in+this+subcategory+yet%0A++++++++You+can+choose+other+service%0A++++++++ HTTP/1.1" 200 398
+DEBUG    [2018-02-28 12:37:02,783] "POST /bot331949839:AAHtXPhs4UW0g_ghLRGE9T9Z1fatuLMj6HM/sendMessage?reply_markup=%7B%22resize_keyboard%22%3A+true%2C+%22one_time_keyboard%22%3A+true%2C+%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu041a%5Cu0440%5Cu0430%5Cu0441%5Cu043e%5Cu0442%5Cu0430+%5Cud83c%5Cudf39%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu043c+%5Cu0438+%5Cu0431%5Cu044b%5Cu0442+%5Cud83c%5Cudfe1%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0422%5Cu0440%5Cu0430%5Cu043d%5Cu0441%5Cu043f%5Cu043e%5Cu0440%5Cu0442+%5Cud83d%5Cude95%22%7D%2C+%7B%22text%22%3A+%22%5Cu0417%5Cu0434%5Cu043e%5Cu0440%5Cu043e%5Cu0432%5Cu044c%5Cu0435+%5Cud83d%5Cudc8a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22PR+%5Cud83d%5Cudd1d%22%7D%2C+%7B%22text%22%3A+%22%5Cu041e%5Cu0442%5Cu0434%5Cu044b%5Cu0445+%5Cud83c%5Cudf34%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041e%5Cu0431%5Cu0443%5Cu0447%5Cu0435%5Cu043d%5Cu0438%5Cu0435+%5Cud83d%5Cudcda%22%7D%2C+%7B%22text%22%3A+%22%5Cu0414%5Cu043e%5Cu0441%5Cu0442%5Cu0430%5Cu0432%5Cu043a%5Cu0430+%5Cud83d%5Cude9a%22%7D%5D%2C+%5B%7B%22text%22%3A+%22FAQ+%5Cu2049%5Cufe0f%22%7D%5D%5D%7D&chat_id=509627560&text=%0A++++++++Choose+the+category%0A++++++++ HTTP/1.1" 200 333
+INFO     [2018-02-28 12:37:29,354] [28/Feb/2018:12:37:29] ENGINE Keyboard Interrupt: shutting down bus
+INFO     [2018-02-28 12:37:29,355] [28/Feb/2018:12:37:29] ENGINE Bus STOPPING
+INFO     [2018-02-28 12:37:29,357] [28/Feb/2018:12:37:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7000)) shut down
+INFO     [2018-02-28 12:37:29,358] [28/Feb/2018:12:37:29] ENGINE Bus STOPPED
+INFO     [2018-02-28 12:37:29,358] [28/Feb/2018:12:37:29] ENGINE Bus EXITING
+INFO     [2018-02-28 12:37:29,359] [28/Feb/2018:12:37:29] ENGINE Bus EXITED
+INFO     [2018-02-28 12:37:29,359] [28/Feb/2018:12:37:29] ENGINE Waiting for child threads to terminate...

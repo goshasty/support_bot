@@ -3,6 +3,7 @@
 import sys
 import logging
 import urllib3
+import config
 from datetime import datetime
 
 import telebot
@@ -26,22 +27,16 @@ code_wrongs = {
     3: NO_SUBCATEGORY
 }
 
-bot = telebot.TeleBot(tokens.token_dimas)
+bot = telebot.TeleBot(tokens.token)
 
 class WebhookServer(object):
     @cherrypy.expose
     def index(self):
-        if 'content-length' in cherrypy.request.headers and \
-                'content-type' in cherrypy.request.headers and \
-                cherrypy.request.headers['content-type'] == 'application/json':
-
             length = int(cherrypy.request.headers['content-length'])
             json_string = cherrypy.request.body.read(length).decode("utf-8")
             update = telebot.types.Update.de_json(json_string)
             bot.process_new_updates([update])
             return ''
-        else:
-            raise cherrypy.HTTPError(403)
 
 def main():
     load_categories()
@@ -298,20 +293,16 @@ def execuse_smth(message, code):
     return
 
 def deploy():
+    """
+    WEBHOOK SET UP:
 
-    """WEBHOOKS SET UP:"""
-    WEBHOOK_URL_PATH = "/%s/" % tokens.TOKEN_MAIN #!!!
-    bot.set_webhook(url=WEBHOOK_URL_BASE + WEBHOOK_URL_PATH,
-                    certificate=open(WEBHOOK_SSL_CERT, 'r'))
-
+    """
     cherrypy.config.update({
-        'server.socket_host': WEBHOOK_LISTEN,
-        'server.socket_port': WEBHOOK_PORT,
-        'server.ssl_module': 'builtin',
-        'server.ssl_certificate': WEBHOOK_SSL_CERT,
-        'server.ssl_private_key': WEBHOOK_SSL_PRIV
+        'server.socket_host': '127.0.0.1',
+        'server.socket_port': 7000,
+        'engine.autoreload.on': False
     })
-    cherrypy.quickstart(WebhookServer(), WEBHOOK_URL_PATH, {'/': {}})
+    cherrypy.quickstart(WebhookServer(), '/', {'/': {}})
 
 if __name__ == '__main__':
     main();
