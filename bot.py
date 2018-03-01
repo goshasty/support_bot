@@ -3,7 +3,6 @@
 import sys
 import logging
 import urllib3
-import config
 from datetime import datetime
 
 import telebot
@@ -12,8 +11,10 @@ import sqlite3
 import cherrypy
 
 from classSC import *
-import tokens
 from const import *
+from config import *
+from webhook import WebhookServer
+from webhook import bot
 
 
 categories = []
@@ -26,17 +27,6 @@ code_wrongs = {
     2: NO_CATEGORY,
     3: NO_SUBCATEGORY
 }
-
-bot = telebot.TeleBot(tokens.token)
-
-class WebhookServer(object):
-    @cherrypy.expose
-    def index(self):
-            length = int(cherrypy.request.headers['content-length'])
-            json_string = cherrypy.request.body.read(length).decode("utf-8")
-            update = telebot.types.Update.de_json(json_string)
-            bot.process_new_updates([update])
-            return ''
 
 def main():
     load_categories()
@@ -297,9 +287,12 @@ def deploy():
     WEBHOOK SET UP:
 
     """
+    bot.remove_webhook()
+    bot.set_webhook(url=WEBHOOK_URL_BASE + MAIN_BOT_UPDATE,
+                    certificate=open(WEBHOOK_SSL_CERT, 'r'))
     cherrypy.config.update({
         'server.socket_host': '127.0.0.1',
-        'server.socket_port': 7000,
+        'server.socket_port': MAIN_BOT_PORT,
         'engine.autoreload.on': False
     })
     cherrypy.quickstart(WebhookServer(), '/', {'/': {}})
